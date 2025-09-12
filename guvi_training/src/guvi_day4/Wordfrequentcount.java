@@ -2,7 +2,7 @@
 package guvi_day4;
 import java.util.Arrays;
 
-public class Wordfrequent {
+public class Wordfrequentcount {
     public static void main(String[] args) {
         String str = "java coding java";
         String[] word = str.split(" ");
