@@ -1,6 +1,4 @@
 package guvi_day8;
-
-
 public class MaxandMinDifference {
 
 		class Node{
