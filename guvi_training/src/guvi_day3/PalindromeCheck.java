@@ -1,6 +1,6 @@
 package guvi_day3;
 
-public class PalindromeChech {
+public class PalindromeCheck {
 private static boolean ispalindrome;
 
 public static void main(String[]args) {

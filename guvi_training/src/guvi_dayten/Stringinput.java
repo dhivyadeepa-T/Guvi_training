@@ -7,8 +7,8 @@ public static void main(String[]args) {
 	System.out.print("enter the String:");
 	Scanner sc = new Scanner(System.in);
 	String word= sc.nextLine();
-Set<Character>seen =new HashSet<>();
-Set<Character>repeated=new  HashSet<>();
+     Set<Character>seen =new HashSet<>();
+     Set<Character>repeated=new  HashSet<>();
 for(char c :word.toCharArray()) {
 	if(!seen.add(c)) {
 		repeated.add(c);
