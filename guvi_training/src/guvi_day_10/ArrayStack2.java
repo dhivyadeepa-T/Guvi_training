@@ -1,4 +1,4 @@
-package guvi_dayten;
+package guvi_day_10;
 import java.util.*;
 public class ArrayStack2 {
 public static boolean isPalindrome(String input) {

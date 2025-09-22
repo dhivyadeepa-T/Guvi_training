@@ -1,4 +1,4 @@
-package guvi_dayten;
+package guvi_day_10;
 import java.util.*;
 import java.util.Scanner;
 

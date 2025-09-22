@@ -1,4 +1,4 @@
-package guvi_dayten;
+package guvi_day_10;
 
 import java.util.HashSet;
 import java.util.Scanner;
