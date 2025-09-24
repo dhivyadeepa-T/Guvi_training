@@ -1,5 +1,6 @@
 package guvi_day_12;
 import java.util.*;
+
 public class TreeImplementation {
 class Node{
 	int data;
@@ -71,6 +72,32 @@ public boolean search(int val) {
     }
     return false;
 }
+public void preOrder(Node root) {
+	if(root!=null) {
+		System.out.print(root.data+" ");
+		preOrder(root.left);
+		preOrder(root.Right);
+	}
+}
+public void postOrder(Node root) {
+	if(root!=null) {
+		
+		postOrder(root.left);
+		postOrder (root.Right);
+		System.out.print(root.data+" ");
+	}
+}
+public void inOrder(Node root) {
+	if(root!=null) {
+		
+		inOrder(root.left);
+		System.out.print(root.data+" ");
+		inOrder (root.Right);
+		
+	}
+}
+
+
 public static void main(String[]args) {
 TreeImplementation tree=new TreeImplementation();
 tree.addNode(1);
@@ -82,5 +109,13 @@ tree.levelorderTraversal();
 System.out.println();
 System.out.println("find value 3:"+tree.search(3));
 System.out.println("find value 0:"+tree.search(0));
+System.out.println("pre-order:");
+tree.preOrder(tree.root);
+System.out.println();
+System.out.println("post-order:");
+tree.postOrder(tree.root);
+System.out.println();
+System.out.println("in-order:");
+tree.inOrder(tree.root);
 }
 }
