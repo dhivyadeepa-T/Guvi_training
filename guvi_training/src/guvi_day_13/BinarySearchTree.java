@@ -118,7 +118,7 @@ public class BinarySearchTree {
 			 BinarySearch.addNode(13);
 			 BinarySearch.addNode(19);
 			 BinarySearch.addNode(56);
-			 BinarySearch.addNode(36);
+			 BinarySearch.addNode(36); 
 			 BinarySearch.BinarySearchTraversal();
 			 System.out.println();
 			 System.out.println("pre-order:");
